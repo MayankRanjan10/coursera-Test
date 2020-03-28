@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin-top: auto;
+}
+.row{
+	width:100%;
+}
+
+h1{
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:center;
+	font-weight: bold;
+}
+
+p{
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:justify;
+	background-color: gray;
+	margin-top: auto; 
+	margin-right: auto;
+	height:auto;
+	margin-left: 10px;
+	border: 5px solid black;
+	padding:10px;
+
+}
+section1{
+	float:right;
+	font-weight:bold;
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:center;
+	width:100px;
+	background-color: magenta; 
+	border: 5px solid black;
+	padding:10px;
+}
+
+section2{
+	float:right;
+	font-weight:bold;
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:center;
+	width:100px;
+	background-color: red; 
+	border: 5px solid black;
+	padding:10px;
+}
+section3{
+	float:right;
+	font-weight:bold;
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:center;
+	width:100px;
+	background-color: yellow; 
+	border: 5px solid black;
+	padding:10px;
+}
+@media (min-width:992px){
+.col-lg-4{
+	float:left;
+	width:33%;
+	
+}
+}
+@media (min-width:768px) and (max-width: 991px){
+	.col-md-6{
+		width:50%;
+		float: left;
+	}
+	.col-md-12{
+		width:100%;
+		float: left;
+		height:100%;
+	}
+	}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		width:100%;
+		float: left;
+	}
+}
