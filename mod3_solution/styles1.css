@@ -5,8 +5,16 @@
 .row{
 	width:100%;
 }
-.active{
-	float: left;
+#header-nav{
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	text-align: left;
+	margin-left: 0;
+}
+li{
+	text-align: center;
 }
 
 h1{
@@ -14,50 +22,48 @@ h1{
 	text-align:center;
 	font-weight: bold;
 }
+p1{
+	font-weight:bold;
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:center;
+	font-size: 25px;
+}
 
-p{
+.general1{
 	font-family: Arial, Times New Roman, Sans-serif;
 	text-align:justify;
-	background-color: gray;
+	background-color: #ffff66	;
 	margin-top: auto; 
 	margin-right: auto;
 	height:auto;
 	margin-left: 10px;
 	border: 5px solid black;
 	padding:10px;
-
 }
-section1{
-	float:right;
-	font-weight:bold;
+.general2{
 	font-family: Arial, Times New Roman, Sans-serif;
-	text-align:center;
-	width:100px;
-	background-color: magenta; 
+	text-align:justify;
+	background-color: #ff66b3;
+	margin-top: auto; 
+	margin-right: auto;
+	height:auto;
+	margin-left: 10px;
+	border: 5px solid black;
+	padding:10px;
+}
+.general3{
+	font-family: Arial, Times New Roman, Sans-serif;
+	text-align:justify;
+	background-color: 	#66ff66;
+	margin-top: auto; 
+	margin-right: auto;
+	height:auto;
+	margin-left: 10px;
 	border: 5px solid black;
 	padding:10px;
 }
 
-section2{
-	float:right;
-	font-weight:bold;
-	font-family: Arial, Times New Roman, Sans-serif;
-	text-align:center;
-	width:100px;
-	background-color: red; 
-	border: 5px solid black;
-	padding:10px;
-}
-section3{
-	float:right;
-	font-weight:bold;
-	font-family: Arial, Times New Roman, Sans-serif;
-	text-align:center;
-	width:100px;
-	background-color: yellow; 
-	border: 5px solid black;
-	padding:10px;
-}
+
 @media (min-width:992px){
 .col-lg-4{
 	float:left;
@@ -78,8 +84,9 @@ section3{
 	}
 
 @media (max-width: 767px){
-	.col-sm-12{
+	.col-xs-12{
 		width:100%;
 		float: left;
 	}
+
 }
