@@ -5,6 +5,9 @@
 .row{
 	width:100%;
 }
+.active{
+	float: left;
+}
 
 h1{
 	font-family: Arial, Times New Roman, Sans-serif;
