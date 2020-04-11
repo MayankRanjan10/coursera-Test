@@ -1,22 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MayankRanjan10 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-Code Issues 0 Pull requests 0 Projects 0 Actions Wiki Security Pulse Community
-Coursera-webdevolopment/Module5solution/js/script.js /
-@kiranmai14 kiranmai14 solution
-3d91579 7 hours ago
-344 lines (290 sloc)  11.2 KB
-  
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
